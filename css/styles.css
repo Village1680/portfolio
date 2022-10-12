@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 43, 122, 120;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -237,11 +237,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #2B7A78;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #474B4F;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11365,7 +11365,9 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    filter: grayscale(40%);
   }
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
