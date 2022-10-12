@@ -11435,3 +11435,10 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.portfolio-img {
+  width: 200px;
+  height: 175px;
+}
+.portfolio-img:hover {
+  cursor: zoom-in;
+}
