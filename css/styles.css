@@ -82,6 +82,10 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+.collapsible:hover {
+  background-color: #2c3034;
+  color: #ffffff;
+}
 
 body {
   margin: 0;
