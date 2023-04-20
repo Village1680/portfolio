@@ -83,6 +83,10 @@
   transition: max-height 0.2s ease-out;
 }
 
+.ul-description {
+  max-width: 40rem;
+}
+
 .code-buttons {
   border: 4px double #495057;
   border-radius: 10px;
