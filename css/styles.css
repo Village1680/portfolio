@@ -82,9 +82,18 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.code-buttons {
+  border: 4px double #495057;
+  border-radius: 10px;
+  background-color: #495057;
+  color: #fff;
+}
+
 .code-buttons:hover {
-  background-color: #2c3034;
-  color: #ffffff;
+  border-color: #2B7A78;
+  background-color: #2B7A78;
+  color: #000;
 }
 
 body {
