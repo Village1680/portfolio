@@ -7,8 +7,12 @@
         var content = this.nextElementSibling;
         if (content.style.maxHeight){
             content.style.maxHeight = null;
+            this.style = null;
         } else {
             content.style.maxHeight = content.scrollHeight + "px";
+            this.style.borderColor = "#2B7A78";
+            this.style.backgroundColor = "#2B7A78";
+            this.style.color = "#000";
         }
     });
 }
