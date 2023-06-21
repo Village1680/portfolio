@@ -75,12 +75,28 @@
     scroll-behavior: smooth;
   }
 }
+
 .content {
   padding: 0 18px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+.zoom-on-hover {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+.zoom-on-hover:hover {
+  transform: scale(200%);
+}
+.portfolio-img {
+  width: 250px;
+  height: 175px;
+  box-shadow: 0px 0px 5px #000000;
+}
+.portfolio-img:hover {
+  cursor: zoom-in;
 }
 
 .ul-description {
@@ -11459,12 +11475,4 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-}
-.portfolio-img {
-  width: 250px;
-  height: 175px;
-  box-shadow: 0px 0px 5px #000000;
-}
-.portfolio-img:hover {
-  cursor: zoom-in;
 }
