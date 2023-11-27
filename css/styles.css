@@ -102,6 +102,25 @@
 .ul-description {
   max-width: 40rem;
 }
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  opacity: 1;
+  right: 15px;
+  bottom: 15px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top:hover {
+  color: #000;
+  transform: scale(1.2);
+}
 
 .code-buttons {
   border: 4px double #495057;
